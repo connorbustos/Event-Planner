@@ -4,6 +4,9 @@ Calendar Planner website developed with back-end using Python, Flask, and Javasc
 
 ## Instructions to Run
 
-### Pycharm (Preferred) 
+### PyCharm (Preferred) 
 1. Open Project folder and PyCharm will ask to install all requirements in requirements.txt 
 1. Run main.py
+
+## Code and Package Functions 
+- [`app`](TaskManagementProject/app)
