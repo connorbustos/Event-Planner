@@ -10,3 +10,7 @@ Calendar Planner website developed with back-end using Python, Flask, and Javasc
 
 ## Code and Package Functions 
 - [`app`](TaskManagementProject/app)
+
+- [`app.static`](TaskManagementProject/app/static)
+
+- [`app.templates`](TaskManagementProject/app/templates)
