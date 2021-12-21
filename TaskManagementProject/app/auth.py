@@ -13,7 +13,7 @@ salt = bcrypt.gensalt()     #used for hashing, unique for every user
 
 auth = Blueprint('auth', __name__)  
 
-cluster = MongoClient("mongodb+srv://Connor:Bustos@cluster0.z1idj.mongodb.net/Login?retryWrites=true&w=majority")       #our database connection
+cluster = MongoClient("mongodb+srv://username:password@cluster0.z1idj.mongodb.net/Login?retryWrites=true&w=majority") #our database connection (changed to username:password when uploaded to github)
 db = cluster["Login"]               #our main collection
 collection = db["data"]             #collection
 
