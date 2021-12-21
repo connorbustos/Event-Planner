@@ -10,6 +10,9 @@ Calendar Planner website developed with back-end using Python, Flask, and Javasc
 
 ## Code and Package Functions 
 - [`app`](TaskManagementProject/app)
+- [`app/auth.py`](TaskManagementProject/app/auth.py)
+
+    Loads all pages that the website has when signed out (login, signup and homepage). Connects to MongoDB database and handles user login both from Google Authentication and user     created accounts. Loads the calendar of that user when a login is sucessful. If logged in, creates a temporary hidden page with a json file of the events that a user has so       the events can be loaded for that user. To load the events, [`calen.json`](TaskManagementProject/app/static/js/calen.js) reads the json file of the events that a user has into     the calendar. 
 
 - [`app.static`](TaskManagementProject/app/static)
 
