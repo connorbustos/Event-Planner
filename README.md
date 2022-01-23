@@ -8,7 +8,7 @@ Working Demo: https://personal-calendar-1.herokuapp.com/homepage
 
 ### PyCharm (Preferred) 
 1. Open Project folder and PyCharm will ask to install all requirements in requirements.txt 
-1. Run main.py
+2. Run main.py
 
 ## Code and Package Functions 
 - [`app`](TaskManagementProject/app)
